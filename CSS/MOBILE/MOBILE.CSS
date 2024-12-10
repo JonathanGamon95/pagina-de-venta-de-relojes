@@ -19,6 +19,11 @@
     }
 
 
+    nav #ayuda {
+        grid-column: 1 / -1;
+    }
+
+
 
     .cont_galeria_destacada {
         width: 90%;
