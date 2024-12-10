@@ -1,0 +1,34 @@
+@media (max-width: 575.98px)and (orientation:portrait) {
+    /* body {
+        background: green;
+    } */
+
+
+    hr {
+        height: 10px;
+    }
+
+
+
+    .guia {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+
+
+
+    .inconveniente {
+        width: 90%;
+    }
+
+
+
+
+
+    footer {
+        position: static;
+        text-align: center;
+    }
+}

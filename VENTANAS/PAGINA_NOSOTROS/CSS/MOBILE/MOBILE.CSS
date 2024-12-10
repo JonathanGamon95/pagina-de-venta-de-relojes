@@ -1,0 +1,85 @@
+@media (max-width: 575.98px)and (orientation:portrait) {
+    /* body {
+        background: green;
+    } */
+
+
+    .cont_descripcion {
+        width: 90%;
+    }
+
+
+
+
+
+
+    .cont_opciones_empresa {
+        gap: 5px;
+        text-align: center;
+    }
+
+
+
+
+
+    .cont_red_principal {
+        width: 90%;
+        height: 150px;
+        margin: 50px auto;
+    }
+    
+    .cont_red_principal img {
+        width: 50%;
+        margin: auto;
+        aspect-ratio: 1;
+    }
+
+    .cont_red_principal p,
+    .cont_red_principal h1 {
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+    .cont_contactos {
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    
+    .cont_contactos ul {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        list-style: none;
+    }
+
+
+
+
+
+
+
+
+
+    .cont_contactos ul li {
+        text-align: center;
+    }
+
+    .cont_contactos ul li .redes {
+        justify-content: center;
+    }
+
+
+
+
+    
+
+    footer {
+        text-align: center;
+    }
+}

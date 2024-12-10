@@ -1,0 +1,82 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #F1FFF9;
+}
+
+
+.titulo {
+    text-align: center;
+    margin: 50px 0;
+}
+
+hr {
+    height: 20px;
+    border: none;
+    background-color: rgb(217, 217, 217);
+}
+
+
+
+.guia {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px 0;
+}
+
+
+
+.cont_logo {
+    width: 200px;
+    aspect-ratio: 1;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont_logo img {
+    width: 60%;
+    aspect-ratio: 1;
+}
+
+
+
+
+
+
+
+.inconveniente {
+    width: 600px;
+    margin: 150px auto;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.inconveniente hr {
+    height: 1px;
+    background-color: black;
+}
+
+
+
+
+footer {
+    height: 50px;
+
+    background-color: rgb(30, 30, 30);
+    color: aliceblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

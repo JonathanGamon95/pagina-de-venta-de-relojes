@@ -1,0 +1,30 @@
+@media (max-width: 575.98px)and (orientation:portrait) {
+    /* body {
+        background: green;
+    } */
+
+
+
+    .cont_buscador {
+        margin: auto;
+    }
+
+
+    section {
+        width: 90%;
+        height: auto;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+
+@media (max-width: 400px)and (orientation:portrait)  {
+    section {
+        height: 70vh;
+    }
+}

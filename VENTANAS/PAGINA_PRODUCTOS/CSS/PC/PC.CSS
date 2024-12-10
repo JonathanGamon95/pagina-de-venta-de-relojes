@@ -1,0 +1,171 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+
+
+body {
+    background-color: #F1FFF9;
+}
+
+
+/* BUSCADOR */
+nav {
+    max-width: 900px;
+    margin: 100px auto 50px;
+}
+
+
+button img {
+    width: 50%;
+    aspect-ratio: 1;
+}
+
+
+.cont_buscador {
+    width: 300px;
+    height: 40px;
+    margin: 0 0 0 auto;
+    background-color: aqua;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.cont_buscador input {
+    grid-column: 1 / 5;
+    grid-row: 1 / -1;
+
+    padding-left: 10px;
+    border: none;
+    background-color: #fff;
+}
+
+
+.cont_buscador button {
+    background-color: #0058ac;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* GALERIA */
+section {
+    max-width: 900px;
+    min-height: 300px;
+    max-height: 630px;
+    /* background-color: #fff; */
+    margin: auto;
+    overflow-y: scroll;
+}
+
+
+
+*::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+}
+
+*::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #DFE9EB;
+}
+
+*::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #397524;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #62A34B;
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background-color: #62A34B;
+}
+
+
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+li {
+    height: 300px;
+    cursor: pointer;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+}
+
+li img {
+    grid-column: 1 / -1;
+    grid-row: 1 / 8;
+
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+    z-index: 0;
+}
+
+li h3 {
+    grid-column: 1 / -1;
+    grid-row: 7 / 8;
+    margin: auto;
+    z-index: 1;
+    background-color: rgba(255, 228, 196, 0.541);
+    box-shadow: 0 0 4px rgba(255, 228, 196, 0.55);
+    color: #fff;
+    padding: 7px 20px;
+}
+
+li:hover h3 {
+    background-color: rgba(248, 211, 167, 0.678);
+    box-shadow: 0 0 4px rgba(255, 228, 196, 0.55)
+}
+
+li p {
+    grid-column: 1 / -1;
+    grid-row: 8 / -1;
+    margin: auto;
+    text-align: center;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+footer {
+    height: 50px;
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

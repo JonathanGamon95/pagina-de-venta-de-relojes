@@ -1,0 +1,30 @@
+@media (max-width: 575.98px)and (orientation:portrait) {
+    /* body {
+        background: green;
+    } */
+
+
+    ul {
+        width: 90%;
+        height: auto;
+        margin: 100px auto 50px auto;
+
+        display: flex;
+        flex-direction: column;
+
+        border-bottom: none;
+    }
+
+
+
+
+
+
+    footer {
+        text-align: center;
+    }
+
+    p {
+        margin: 0 10px;
+    }
+}

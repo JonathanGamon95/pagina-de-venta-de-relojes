@@ -1,0 +1,116 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+
+body {
+    background-color: #F1FFF9;
+}
+
+
+
+
+.cont_descripcion {
+    width: 600px;
+    height: auto;
+    text-align: center;
+    margin: 50px auto 100px auto;
+}
+
+
+.cont_opciones_empresa {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: auto;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+.cont_red_principal {
+    width: 450px;
+    height: 150px;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 1fr;
+}
+
+.cont_red_principal img {
+    width: 70%;
+    margin: auto;
+    aspect-ratio: 1;
+}
+
+.cont_link_red_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+.cont_contactos {
+    height: 150px;
+    background-color: blanchedalmond;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cont_contactos ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+
+
+.redes {
+    height: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.redes i {
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+.redes i img {
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+
+
+
+
+
+footer {
+    margin: 50px auto;
+    font-weight: 600;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

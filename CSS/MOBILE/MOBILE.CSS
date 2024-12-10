@@ -1,0 +1,40 @@
+@media (max-width: 575.98px)and (orientation:portrait) {
+    /* body {
+        background: green;
+    } */
+
+
+
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+
+        margin: 50px auto;
+    }
+
+
+    nav a {
+        margin: auto;
+    }
+
+
+
+    .cont_galeria_destacada {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+
+    footer {
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px)and (orientation:portrait) {
+    footer {
+        margin: 10px 0 0 0;
+        position: relative;
+    }
+}
