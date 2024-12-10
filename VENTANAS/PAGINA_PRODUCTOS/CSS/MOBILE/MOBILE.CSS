@@ -20,6 +20,11 @@
         flex-direction: column;
         gap: 30px;
     }
+
+
+    footer {
+        text-align: center;
+    }
 }
 
 

@@ -1,7 +1,7 @@
 @media (max-width: 575.98px)and (orientation:portrait) {
     .cont_sucursales {
         width: 90%;
-        row-gap: 20px;
+        gap: 20px;
     }
 
 
